@@ -1,0 +1,41 @@
+/* padding
+background-color: #313633
+align-items
+justify-content
+color
+margin
+font-family
+text-decoration
+transition
+display
+opacity
+:hover */
+
+body {
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.2s ease-in-out;
+    margin: 0 40px;
+}
+
+.nav {
+    background-color: #3a3633;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icon {
+    display: block;
+}
+
+.nav > a:hover {
+    opacity: .4;
+
+}
