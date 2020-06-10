@@ -29,13 +29,13 @@ main {
   position: relative;
   z-index: 2;
 }
-.banner {
+.banner { /* done */
   flex: 0 0 340px;
   background: url(../images/taxi_bg.jpg) no-repeat right bottom;
   background-size: cover;
   border-radius: var(--border-radius) 0 0 var(--border-radius);
 }
-.btn {
+.btn { /* done */
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: var(--border-radius);
@@ -46,13 +46,13 @@ main {
   margin: 6px 0;
   padding: 10px 14px;
 }
-.content {
+.content { /* done */
   background: #fafafa;
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
   flex: 1 0 400px;
   padding: 48px 64px 48px 48px;
 }
-.section {
+.section { 
   padding: 14px 0 0 0;
 }
 .personal label {
@@ -93,10 +93,10 @@ main {
   display: flex;
   justify-content: space-between;
 }
-.form-group > div {
+.form-group > div { 
   flex: 0 0 49%;
 }
-.checkboxes {
+.checkboxes { /* done */
   display: flex;
   flex-direction: column;
 }

@@ -1,0 +1,45 @@
+/* 
+font-family 
+flex-direction
+min-height xxxxxx
+height
+background-color
+color
+display
+align-items
+justify-content
+flex 
+*/
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: rgb(65, 64, 64);
+    color: white;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(65, 64, 64);
+    color: white;
+    height: 50px;
+    
+}
+
+.main {
+    flex: 1; /* I could not find info on what this is and why this works*/
+}
