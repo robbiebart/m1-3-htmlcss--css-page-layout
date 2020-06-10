@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    flex-wrap: wrap;
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: red;
+    border: solid 1px;
+    box-sizing: border-box;
+    width: width: calc(100% / 3);
+    flex-shrink: 1;
+}
+
+.one {
+
+}
+
+.two {
+    
+}
+
+.three {
+    
+}
+
+.four {
+    
+}
+
+.five {
+    
+}
+
+.six {
+    
+}
+
+.seven {
+    
+}
+
+.eight {
+    
+}
+
+.nine {
+    
+}
