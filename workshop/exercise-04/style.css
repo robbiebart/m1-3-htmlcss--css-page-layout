@@ -1,0 +1,55 @@
+/*
+font-family xxxxxxx
+text-align xxxxxx
+border
+border-radius
+padding
+line-height
+font-size
+max-width
+margin
+margin-top
+color
+text-decoration
+content
+padding-left
+display
+:hover
+::after
+*/
+
+body {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin: 0;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;*/
+}
+
+.head {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.info > p {
+    border: solid 0 px;
+    max-width: 375px;
+    display: inline-block;
+}
+
+.link > a {
+    text-decoration: none;
+    color: blue;
+    display: inline-block
+}
+
+.link::after {
+    content: '>';
+    color: blue;
+    display: inline-block
+}

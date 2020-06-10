@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url(imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+}
+
+h1 { 
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
