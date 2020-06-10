@@ -41,5 +41,5 @@ body {
 }
 
 .main {
-    flex: 1; /* I could not find info on what this is and why this works*/
+    flex: 1; /* I could not find info on what this is and why this works, this page https://developer.mozilla.org/en-US/docs/Web/CSS/flex does not explain the functionality here*/
 }
