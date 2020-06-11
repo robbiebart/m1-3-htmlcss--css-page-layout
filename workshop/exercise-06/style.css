@@ -7,7 +7,35 @@ body {
 }
 
 .nav-dropdown {
+  padding: 20px;
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  position: relative;
 }
+
+.nav-dropdown:hover > .dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #03a9f4;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list > li {
+  list-style-type: none;
+  padding: 20px;
+}
+.menu-list > li:hover {
+  background-color: dodgerblue;
+}
+/* had a very hard time with this one and basically had to reverse engineer the solution*/
